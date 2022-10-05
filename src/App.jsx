@@ -1,14 +1,10 @@
 import {
   Box,
   Button,
-  Container,
-  Divider,
   Flex,
   Heading,
   HStack,
   Icon,
-  Input,
-  Stack,
   VStack,
   NumberInput,
   NumberInputField,
@@ -16,7 +12,6 @@ import {
   useColorMode,
   useColorModeValue,
   SimpleGrid,
-  Center,
 } from "@chakra-ui/react";
 import { useState } from "react";
 
@@ -53,10 +48,6 @@ function App() {
   const bgColor = useColorModeValue("#fff", "#0A322B");
 
   const outerCardColor = useColorModeValue("#E4E9EF", "#07241F");
-
-  const borderColor = useColorModeValue("#000", "#fff");
-
-  const innerCardColor = useColorModeValue("#");
 
   const bottomCard = useColorModeValue("#B18439", "#26524A");
 
